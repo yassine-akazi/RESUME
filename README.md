@@ -12,7 +12,11 @@
 
 ## Getting Started
 ### Clone this repository to your local machine.
-- [ ] git clone 
+
+```
+git clone https://github.com/yassine-akazi/RESUME.git
+
+```
 
 # Navigate to the root directory of the project.
 - cd YOUR-REPOSITORY
