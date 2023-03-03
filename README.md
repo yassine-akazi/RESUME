@@ -19,17 +19,21 @@ git clone https://github.com/yassine-akazi/RESUME.git
 ```
 
 # Navigate to the root directory of the project.
-- cd YOUR-REPOSITORY
-
+```
+cd YOUR-REPOSITORY
+```
 ### Install the dependencies.
-- npm install
-
+```
+npm install
+```
 ### Create a .env file in the root directory and add your MongoDB Atlas connection string.
-- MONGODB_URI=YOUR_MONGODB_ATLAS_CONNECTION_STRING
-
+```
+MONGODB_URI=YOUR_MONGODB_ATLAS_CONNECTION_STRING
+```
 ### Start the server.
-- npm start
-
+```
+npm start
+```
 ### Open your browser and navigate to http://localhost:3000.
 
 ## Features
@@ -40,10 +44,10 @@ git clone https://github.com/yassine-akazi/RESUME.git
 - Responsive design with Tailwind
 
 ## Contributing
+
 If you'd like to contribute to this project, please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 
 
