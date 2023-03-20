@@ -94,7 +94,7 @@ app.listen(8000, function () {
     console.log('App running on http://localhost:8000')
 })
 
-const uri = "mongodb+srv://yassine:yassine@cluster0.zx6bz03.mongodb.net/resume-db?retryWrites=true&w=majority"
+const uri = "process.env.mongodb_url"
 
 mongoose.set('strictQuery', true)
 mongoose.connect(uri, {}, (err, data) => {
